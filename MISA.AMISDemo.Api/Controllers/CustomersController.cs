@@ -43,7 +43,7 @@ namespace MISA.AMISDemo.Api.Controllers
             {
                 var res = new
                 {
-                    userMsg = "Có lỗi xảy ra trong quá trình xử lý dữ liệu. Vui lòng thử lại sau.",
+                    userMsg = "Có lỗi xảy ra trong quá trình xử lý dữ liệu. Vui lòng thử lại sau nhé",
                     DevMsg = ex.Message,
                     Error = ""
                 };
