@@ -9,7 +9,7 @@ namespace MISA.AMISDemo.Core.Entities
     public class Customer
     {
         public Guid CustomerId { get; set; }
-        public String CustomerCode { get; set; }
+        public String CustomerCode { get; set;}
         public String FullName  { get; set; }   
     }
 }

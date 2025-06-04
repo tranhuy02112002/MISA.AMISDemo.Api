@@ -30,12 +30,18 @@ namespace MISA.AMISDemo.Infrastructure.Repository
         {
             //Truy cập database:
             //Lấy dữ liệu:
-            return new List<Customer> { new Customer() { CustomerCode = "Kh000333331" } };
+            return new List<Customer> { new Customer() {
+       
+                CustomerId = Guid.NewGuid(),
+                CustomerCode = "Kh000333331",
+                FullName = "Nguyễn Văn A"
+            }
+            };
         }
 
         public int Insert(Customer entity)
         {
-            throw new NotImplementedException();
+            return 1;
         }
 
         public int Update(Customer entity)

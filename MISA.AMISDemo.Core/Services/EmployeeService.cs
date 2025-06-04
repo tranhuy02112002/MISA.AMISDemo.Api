@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using MISA.AMISDemo.Core.DTOs;
 using MISA.AMISDemo.Core.Entities;
 using MISA.AMISDemo.Core.Interfaces;
 using System;
@@ -9,14 +10,14 @@ using System.Threading.Tasks;
 
 namespace MISA.AMISDemo.Core.Services
 {
-    internal class EmployeeService : IEmployeeService
+    public class EmployeeService : IEmployeeService
     {
         public object ImportService(IFormFile excelFile)
         {
             throw new NotImplementedException();
         }
 
-        public object InsertService(Employee entity)
+        public MISAServiceResult InsertService(Employee entity)
         {
             throw new NotImplementedException();
         }
